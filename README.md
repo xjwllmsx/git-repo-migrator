@@ -12,7 +12,7 @@ For this project, I plan to use Python.
 4. Navigate to directory with repositories
 5. Print number of directories (which will equal the total number of jobs) and save to a variable to recall later
 6. Create a counter variable
-   (\*) The following steps will be done for each directory:
+**The following steps will be done for each directory:**
 7. Print 'adding Soft Serve as remote'
 8. Add Soft Serve server as the remote repository.
 9. Print 'Soft Serve added successfully!'
