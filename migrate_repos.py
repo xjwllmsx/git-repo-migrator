@@ -1,6 +1,11 @@
 # Import RootDir class
 from RootDir import RootDir
+
+# Import create_repo_dict function
 from create_repo_dict import create_repo_dict
+
+# Import RemoteServer class
+from RemoteServer import RemoteServer
 
 # New RootDir object
 root_dir = RootDir()
@@ -19,3 +24,10 @@ print(f"Migrating repositories from '{root_dir.root_dir_folder}'...")
 
 # Print number of repos to migrate
 print(f"There are a total of {num_of_repos} repos to migrate.")
+
+for key in repos_dict:
+    repo_name = repos_dict[key]["repo_name"]
+    repo_path = repos_dict[key]["repo_path"]
+    remote = RemoteServer(repo_name, repo_path)
+    remote.check_remote_server()
+    print("\n")
