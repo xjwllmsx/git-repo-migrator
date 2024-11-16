@@ -6,12 +6,12 @@ For this project, I plan to use Python.
 
 ## Goals
 
-1. Save repository to an accessible location (on local drive or an attached external hard drive)
-2. Print that the program is about to begin
-3. Print navigating to selected directory
-4. Navigate to directory with repositories
-5. Print number of directories (which will equal the total number of jobs) and save to a variable to recall later
-6. Create a counter variable
+~~1. Save repository to an accessible location (on local drive or an attached external hard drive)~~
+~~2. Print that the program is about to begin~~
+~~3. Print navigating to selected directory~~
+~~4. Navigate to directory with repositories~~
+~~5. Print number of directories (which will equal the total number of jobs) and save to a variable to recall later~~
+~~6. Create a counter variable~~
 **The following steps will be done for each directory:**
 7. Print 'adding Soft Serve as remote'
 8. Add Soft Serve server as the remote repository.
