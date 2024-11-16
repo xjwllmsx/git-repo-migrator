@@ -18,10 +18,15 @@ For this project, I plan to use Python.
 
 6. ~~Create a counter variable~~
    **The following steps will be done for each directory:**
+7. Check to see if there are currently any remotes for each repo
 
-7. Print 'adding Soft Serve as remote'
+   - If repo has a 'mirror remote', remove it, add Soft Serve as a remote, and add mirror tag
 
-8. Add Soft Serve server as the remote repository.
+   - If repo has 'origin' already, add Sof Serve as a mirror
+
+   - If repo has no remotes, add Soft Serve
+
+8. Print 'adding Soft Serve as remote'
 
 9. Print 'Soft Serve added successfully!'
 
@@ -41,4 +46,6 @@ For this project, I plan to use Python.
 
 17. Else, print '{# of directories - counter} repos have not been migrated to the server
 
-18. Terminate the program
+18. Add a check to verify each server has Soft Serve as a remote server
+
+19. Terminate the program
