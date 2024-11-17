@@ -22,7 +22,7 @@ For this project, I plan to use Python.
 
    - If repo has a 'mirror remote', remove it, add Soft Serve as a remote, and add mirror tag
 
-   - If repo has 'origin' already, add Sof Serve as a mirror
+   - If repo has 'origin' already, add Soft Serve as a mirror
 
    - If repo has no remotes, add Soft Serve
 
