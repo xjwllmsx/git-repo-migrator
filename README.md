@@ -4,7 +4,9 @@ The goal of this project is to automate the transfer of my repositories that wer
 
 For this project, I plan to use Python.
 
-## Goals
+---
+
+## Pseudo Code / Outline
 
 1. ~~Save repository to an accessible location (on local drive or an attached external hard drive)~~
 
@@ -49,3 +51,9 @@ For this project, I plan to use Python.
 18. Add a check to verify each server has Soft Serve as a remote server
 
 19. Terminate the program
+
+---
+
+## Features to add
+
+[ ] Add logger to replace terminal outputs
