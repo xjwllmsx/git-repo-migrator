@@ -10,6 +10,9 @@ from eval_subdir import eval_subdir
 # Import check_remotes_exist module
 from check_remotes_exist import check_remotes_exist
 
+# Import update_remotes module
+from update_remotes import update_remotes
+
 # Root folder
 root_dir = Repo()
 
@@ -24,3 +27,6 @@ eval_subdir(list)
 
 # Looks for existing remotes and logs them
 check_remotes_exist(list)
+
+# Update Remotes
+update_remotes(list)
