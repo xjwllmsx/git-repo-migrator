@@ -28,7 +28,7 @@ I originally hosted my self-managed git repositories on [Gitea](https://github.c
 1. Make sure your existing repositories are locally stored.
 2. Run the program:
 ```bash
-python main.py
+python git-repo-migrator.py
 ```
 3. Follow the prompts to complete the migration.
 
